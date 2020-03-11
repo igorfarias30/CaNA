@@ -1,15 +1,10 @@
 import sys
 
-x = 1000
 
 def asterisco(n: int) -> None:
     if (n > 1):
         for i in range(0, 7 * n):
             pass
-        
-        #global x
-        #x = x + 7 * n
-        #print(x)
         
         asterisco(n//5)
         asterisco(n//5)
